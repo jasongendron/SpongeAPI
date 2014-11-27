@@ -23,9 +23,10 @@
  * THE SOFTWARE.
  */
 
-package org.spongepowered.api.item.inventory;
+package org.spongepowered.api.item;
 
 import com.google.common.collect.Ordering;
+import org.spongepowered.api.item.ItemStack;
 import org.spongepowered.api.item.ItemType;
 
 import java.util.Arrays;

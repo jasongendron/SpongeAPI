@@ -25,8 +25,6 @@
 
 package org.spongepowered.api.item;
 
-import org.spongepowered.api.item.inventory.ItemStack;
-
 public interface Enchantment {
 
     /**

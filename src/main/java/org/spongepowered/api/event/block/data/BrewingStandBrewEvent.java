@@ -25,7 +25,7 @@
 package org.spongepowered.api.event.block.data;
 
 import org.spongepowered.api.block.data.BrewingStand;
-import org.spongepowered.api.item.inventory.ItemStack;
+import org.spongepowered.api.item.ItemStack;
 
 import java.util.List;
 

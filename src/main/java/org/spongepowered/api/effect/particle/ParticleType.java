@@ -24,7 +24,8 @@
  */
 package org.spongepowered.api.effect.particle;
 
-import org.spongepowered.api.item.inventory.ItemStack;
+
+import org.spongepowered.api.item.ItemStack;
 
 import java.awt.Color;
 

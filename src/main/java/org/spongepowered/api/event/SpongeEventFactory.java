@@ -112,7 +112,7 @@ import org.spongepowered.api.event.world.ChunkUnloadEvent;
 import org.spongepowered.api.event.world.GameRuleChangeEvent;
 import org.spongepowered.api.event.world.WorldLoadEvent;
 import org.spongepowered.api.event.world.WorldUnloadEvent;
-import org.spongepowered.api.item.inventory.ItemStack;
+import org.spongepowered.api.item.ItemStack;
 import org.spongepowered.api.status.StatusClient;
 import org.spongepowered.api.text.message.Message;
 import org.spongepowered.api.util.Direction;

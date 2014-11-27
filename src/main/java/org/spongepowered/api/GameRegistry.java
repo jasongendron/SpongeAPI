@@ -46,8 +46,8 @@ import org.spongepowered.api.entity.living.villager.Career;
 import org.spongepowered.api.entity.living.villager.Profession;
 import org.spongepowered.api.entity.player.gamemode.GameMode;
 import org.spongepowered.api.item.Enchantment;
+import org.spongepowered.api.item.ItemStackBuilder;
 import org.spongepowered.api.item.ItemType;
-import org.spongepowered.api.item.inventory.ItemStackBuilder;
 import org.spongepowered.api.item.merchant.TradeOfferBuilder;
 import org.spongepowered.api.potion.PotionEffectBuilder;
 import org.spongepowered.api.potion.PotionEffectType;
@@ -65,6 +65,8 @@ import java.net.URL;
 import java.util.Collection;
 import java.util.List;
 import java.util.UUID;
+
+import org.spongepowered.api.item.recipe.RecipeRegistry;
 
 /**
  * Provides an easy way to retrieve types from a {@link Game}.
@@ -535,5 +537,21 @@ public interface GameRegistry {
      * @return The list of all available {@link BannerPatternShape}s
      */
     List<BannerPatternShape> getBannerPatternShapes();
+
+    /**
+     * Retrieves the ItemDictionary for this GameRegistry
+     * (and, by proxy, Game).
+     *
+     * @return The item dictionary
+     */
+    GameDictionary getGameDictionary();
+
+    /**
+     * Retrieves the RecipeRegistry for this GameRegistry
+     * (and, by proxy, Game).
+     *
+     * @return The recipe registry
+     */
+    RecipeRegistry getRecipeRegistry();
 
 }

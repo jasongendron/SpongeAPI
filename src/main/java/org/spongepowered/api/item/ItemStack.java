@@ -23,10 +23,8 @@
  * THE SOFTWARE.
  */
 
-package org.spongepowered.api.item.inventory;
+package org.spongepowered.api.item;
 
-import org.spongepowered.api.item.Enchantment;
-import org.spongepowered.api.item.ItemType;
 import org.spongepowered.api.service.persistence.DataSerializable;
 
 import java.io.Serializable;
