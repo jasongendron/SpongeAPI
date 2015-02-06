@@ -103,7 +103,8 @@ checkstyle {
             "organization": project.organization,
             "url": project.url,
             "year": project.inceptionYear,
-            "basedir": project.projectDir
+            "basedir": project.projectDir,
+            "severity": 'error'
     ]
 }
 
